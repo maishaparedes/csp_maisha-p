@@ -1,4 +1,6 @@
-char name[] = "Maisha";
+//Maisha Paredes, First practice C
+
+char name[] = "maisha";
 
 int num = 5;
 

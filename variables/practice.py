@@ -19,6 +19,3 @@ eye_color = "brown"
 age = 14
 
 favorite_subject = "english"
-
-
-
