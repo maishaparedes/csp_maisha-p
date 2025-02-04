@@ -1,3 +1,4 @@
+// Maisha Paredes, TEMPLATE
 #include <stdio.h>
 
 char name[] = "Maisha";
