@@ -1,4 +1,4 @@
-#Maisha paredes, Python Variables practice
+#Maisha paredes, python Variables practice
 
 name = "maisha"
 
