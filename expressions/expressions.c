@@ -4,10 +4,10 @@
 
 int main(void){
     float equation = (7-24/8*4+6);
-    int num = 1
-printf(7-24/8*4+6)
-printf(18/3-7+2*5)
-    printf("hello World");
+    int num = 1;
+printf(7-24/8*4+6);
+printf(18/3-7+2*5);
+ 
     return 0;
     }
 
