@@ -12,8 +12,9 @@ num = 4
 
 num += 1 #old total, adding 1, making it new value
 
-print(num)
+#print(num)
 
-num = 4
+pi = 3.1415926526535
+print(f"{pi:.4f}")
 
 
