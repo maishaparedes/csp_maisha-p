@@ -1,5 +1,4 @@
 // Maisha paredes, expressions notes c
-
 #include <stdio.h>
 #include <math.h>
 //float x  pow(2,2);
