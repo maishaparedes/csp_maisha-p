@@ -29,32 +29,45 @@ savings = income * 0.1
 
 #calculate spending as income-savings-rent-utilities-groceries-transport (variable)
 
-spendings = 
+spendings = income-savings-rent-utilities-groceries-transport
 #calculate percent income of rent (rent/income *100)  (variable)
-
+ rent_percentage = (rent/income) *100
 
 #calculate percent income of utilities (utilities/income *100)  (variable)
 
+utilities_percentage = (utilities/income) *100
 
 #calculate percent income of groceries (groceries/income *100)  (variable)
 
-#calculate percent income of transportation (transportation/income *100)  (variable)
+groceries_percentage = (groceries / income) * 100
 
-#calculate percent income of spending (spending/income *100)  (variable)
+#calculate percent income of transportation (transportation/income *100)  (variable)
+transport_percentage = (transport / income) * 100
+
+#calculate percent income of spending (spending/income *100)  (variable)
+spending_percentage = (spendings / income) * 100
 
 #your rent is $XX.XX which is XX% of your income. (Print)
 
+print("Your rent is which is of your income")
+
 #your utilities is $XX.XX which is XX% of your income. (Print)
+print("your utilities are __ which is __ of your income")
 
 #your groceries is $XX.XX which is XX% of your income. (Print)
+print("your groceries are __ which is __ of your income")
 
 #your transportation is $XX.XX which is XX% of your income. (Print)
+            
+print("your transportation is __ which is __ of your income")
 
 #your savings are $XX.XX which is XX% of your income. (Print)
 
+print("your savings are __ which is __ of your income")
+
 #your spendings are $XX.XX which is XX% of your income. (Print)
 
-
+print("your spending is __ which is __ of your income")
 
 
 
