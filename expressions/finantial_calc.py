@@ -2,7 +2,7 @@
 
 # print statement that welcomes user and tells us what program does
 
-print("Welcome! This program will calculate your savings and how much you have left to spend. You can only type the number, don't put dollars or dollar signs!")
+print("Welcome! This program will calculate your savings and how much you have left to spend. You can only type the number, don't put dollar signs!")
 
 #ask user what their monthly income is (variable, an input)
 
@@ -48,26 +48,21 @@ transport_percentage = (transport / income) * 100
 spending_percentage = (spendings / income) * 100
 
 #your rent is $XX.XX which is XX% of your income. (Print)
-
-print("Your rent is which is of your income")
+print(f"Your rent is ${rent:.2f} which is {rent_percentage:.2f}% of your income.")
 
 #your utilities is $XX.XX which is XX% of your income. (Print)
-print("your utilities are __ which is __ of your income")
+print(f"Your utilities are ${utilities:.2f} which is {utilities_percentage:.2f}% of your income.")
 
 #your groceries is $XX.XX which is XX% of your income. (Print)
-print("your groceries are __ which is __ of your income")
+print(f"Your groceries are ${groceries:.2f} which is {groceries_percentage:.2f}% of your income.")
 
 #your transportation is $XX.XX which is XX% of your income. (Print)
-            
-print("your transportation is __ which is __ of your income")
+print(f"Your transportation is ${transport:.2f} which is {transport_percentage:.2f}% of your income.")
 
 #your savings are $XX.XX which is XX% of your income. (Print)
-
-print("your savings are __ which is __ of your income")
+savings_percentage = (savings / income) * 100  # Calculate savings percentage
+print(f"Your savings are ${savings:.2f} which is {savings_percentage:.2f}% of your income.")
 
 #your spendings are $XX.XX which is XX% of your income. (Print)
-
-print("your spending is __ which is __ of your income")
-
-
+print(f"Your spendings are ${spendings:.2f} which is {spending_percentage:.2f}% of your income.")
 
