@@ -35,7 +35,7 @@ int main(void){
   float savings = income * 0.1;
 
   //calculate spending as income-savings-rent-utilities-groceries-transport (variable)
-  float spendings = income - savings - rent - utilities - groceries - transport;
+  float spendings = income - savings - rent - utilities - groceries - transportation;
 
   //calculate percent income of rent (rent/income *100) (variable)
   float rent_percentage = (rent / income) * 100;
@@ -47,7 +47,7 @@ int main(void){
   float groceries_percentage = (groceries / income) * 100;
 
   //calculate percent income of transportation (transportation/income *100)  (variable)
-  float transport_percentage = (transport / income) * 100;
+  float transport_percentage = (transportation/ income) * 100;
 
   //calculate percent income of spending (spending/income *100)  (variable)
   float spending_percentage = (spendings / income) * 100;
@@ -62,7 +62,7 @@ int main(void){
   printf("Your groceries are $%.2f which is %.2f%% of your income.\n", groceries, groceries_percentage);
 
   //your transportation is $XX.XX which is XX% of your income. (Print)
-  printf("Your transportation is $%.2f which is %.2f%% of your income.\n", transport, transport_percentage);
+  printf("Your transportation is $%.2f which is %.2f%% of your income.\n", transportation, transport_percentage);
 
   //your savings are $XX.XX which is XX% of your income. (Print)
   float savings_percentage = (savings / income) * 100; // Calculate savings percentage
