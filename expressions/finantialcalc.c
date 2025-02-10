@@ -29,7 +29,7 @@ int main(void){
   //ask user what their transportation is (variable, an input)
   float transportation;
   printf("How much is your transportation?\n");
-  scanf("%f", &transport);
+  scanf("%f", &transportation);
 
   //calculate savings 10% of income (income*.1) (variable)
   float savings = income * 0.1;
