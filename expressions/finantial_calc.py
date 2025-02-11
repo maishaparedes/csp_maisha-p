@@ -31,7 +31,7 @@ savings = income * 0.1
 
 spendings = income-savings-rent-utilities-groceries-transport
 #calculate percent income of rent (rent/income *100)  (variable)
- rent_percentage = (rent/income) *100
+rent_percentage = (rent/income) *100
 
 #calculate percent income of utilities (utilities/income *100)  (variable)
 
