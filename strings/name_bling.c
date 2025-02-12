@@ -11,5 +11,5 @@ int main() {
  
     printf(">:P %s >_<\n", name);  
   
-    return 0; +
+    return 0;
 }  
