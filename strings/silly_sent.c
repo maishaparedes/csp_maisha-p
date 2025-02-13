@@ -2,6 +2,11 @@
 #include <stdio.h>
 //empty variables for user words (minimum 3)
 
+char verb1[50];
+
+char verb2[50];
+
+
 int main(void){
     //A welcome for the user telling them what the program is (print)
 
@@ -9,3 +14,4 @@ int main(void){
 //print out the story with the variables inserted ("welcome %s to my program", name)
     return 0;
     }
+    
