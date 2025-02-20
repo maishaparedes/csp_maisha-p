@@ -1,12 +1,8 @@
 #Maisha Paredes, Finantial Calculator python
 
-def info(cost, income, type):
-    percent = rent/income *100
-    print(f"your {type} is ${cost:.2f} which is {percent}% of your income.")
-
 # print statement that welcomes user and tells us what program does
 
-print("Welcome! This program will calculate your savings and how much you have left to spend. You can only type the number, don't put dollar signs!")
+print("Welcome to my calculator that will help you manage your monthly finances!")
 
 #ask user what their monthly income is (variable, an input)
 
@@ -70,9 +66,3 @@ print(f"Your savings are ${savings:.2f} which is {savings_percentage:.2f}% of yo
 #your spendings are $XX.XX which is XX% of your income. (Print)
 print(f"Your spendings are ${spendings:.2f} which is {spending_percentage:.2f}% of your income.")
 
-info(rent, income, "rent')
-info(utilities, income, "rent')
-info(groceries, income, "rent')
-info(transport, income, "rent')
-info(savings, income, "rent')
-info(transport, income, "rent')
