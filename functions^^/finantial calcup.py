@@ -1,4 +1,12 @@
-#Maisha Paredes, Finantial Calculator python
+#Maisha Paredes, Update Finantial Calculator python
+
+def get_user_inputs():  
+    
+    return income, rent, utilities, groceries, transport  
+
+def calculate_percentages(income, rent, utilities, groceries, transport):  
+    
+    return rent_percentage, utilities_percentage, groceries_percentage, transport_percentage  
 
 # print statement that welcomes user and tells us what program does
 
