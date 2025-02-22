@@ -1,4 +1,4 @@
-#Maisha Paredes, Update Finantial Calculator python
+#maisha paredes, Update finantial Calc python
 
 def get_user_input(prompt):
     return float(input(prompt))
