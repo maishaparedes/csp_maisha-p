@@ -31,7 +31,7 @@ else: #this happens if condition is false
 
 #5. What kind of statement do you use if you have more than 2 needed outcomes?
 
-num = int(input("How many cookies do you have?"))
+num = int(input("How many cookies are there?"))
 #computers read top to bottom , check the least liely first and the most liely at the end 
 
 if num == 0: #<= if always starts the conditional
@@ -62,28 +62,24 @@ else: #<= else always ends the conditional
 
 #7. What are the 3 logical operators?
 
-if num <10 and > 5:
+if num <10 and >5:
     print("this is a big single digit number")
-
-    
-elif num <10 or > 5: #or means one has to be true 
+ 
+elif num <10 or >5: #or means one has to be true 
     print("this is a single digit number")
 
-elif num <10 not > 5: #not changes to check if false
+elif num <10 not >5: #not changes to check if false
     print("this is not a single digit number")
 #8. What are logical operators for? - make our statements more complex so we can handle different problems
 
-
 #9. What does a nested conditional statement do?
 if num <10: 
-    if num ==8:
+    if num ==8: #<=this is inside the one above it. It's only checked if that top one comes out true 
         print("This prints at 8")
     else:
-        print("the number is less than 10")
+        if num ==4:
+            print("There are only enough cookis left for me. . .sorry")
+        else:
+            print("the number is less than 10")
 else: 
     print("The number is bigger than 10")
-
-#How do you write an if statement in C?
-#How do you write else statements in C?
-#How do you write elif/ else if statements in C?
-#How do you write the 3 logical operators in C?
