@@ -15,7 +15,7 @@ int main(void){
         printf("Hello %s, welcome to his class.\n", name);
     }
 
-printf("How many silblings do you love? Don't you lie now\n");
+printf("How many silblings do you have? Don't you lie now\n");
 scanf("%d", &num);
     //12. How do you write elif/ else if statements in C?
     if(num == 0){
