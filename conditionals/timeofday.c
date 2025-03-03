@@ -15,7 +15,7 @@ int main(void) {
     } else if (hour < 18) {  
         printf("Great afternoon, just look at the clouds!\n");
     } else {  
-        printf("Good evening!\n");  
+        printf("Good evening.\n");  
     }  
   
     return 0; 
