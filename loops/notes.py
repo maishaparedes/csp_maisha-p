@@ -17,7 +17,7 @@ while x < 10:
 #3. What is iteration
 
     #one instance of the loop
-    #one particular instance of the loop#iteration in it of itself is the amount of times your looping through
+    #one particular instance of the loop #iteration in it of itself is the amount of times your looping through
 
 #4. What are lists? 
 nums = [1,2,3,4,5,6,7,6]
@@ -41,7 +41,7 @@ print(siblings)
 
 for sibling in siblings: 
     print(sibling)
-    for x in range(0,101,20)
+    for x in range(0,101,20):
         print(x)
 #7. How do you make while loops in python?
 import random
@@ -51,9 +51,9 @@ goose = random.randint
 while x <= 20:
     if x == goose:
         print("goose!")
-       break #tells the loop to stop
-    else:
-        print("duck")
+    break #tells the loop to stop
+else:
+    print("duck")
     print("duck")
     x += 1 
     #continues move on to the next iteration without finishing
