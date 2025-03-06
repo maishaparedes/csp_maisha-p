@@ -4,9 +4,9 @@
 
 int main(void){
 
-const char*  siblings[] = {"Angie", "Hanah", "Josh", "Ethan", "Oliver", "Maisha"};   
+const char*  siblings[] = {"Angie", "Hanah", "Josh", "Ethan", "Oliver", "Maisha"};
 
-for (int i = 0; i < 6; i++) {  
+    for (int i = 0; i < 6; i++) {  
     printf("yo, %s!\n", siblings[i]);  
 }  
 return 0;  

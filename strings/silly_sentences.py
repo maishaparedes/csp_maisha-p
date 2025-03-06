@@ -9,4 +9,4 @@ verb2 = input("Type in another verb: ")
 print(f'Hi {name}, if you had to describe yourself in one word.. oh! Looks like it would be {adj}. And, food for thought, last week, you were at a horse race. '  
       f'You probably met {noun_person}, didn\'t you? And then angels {verb1} you up to the heavens, where '  
       f'there were a million Mandalorians. They all had {adj} wings. A {noun_person} saw me there, and I {verb2} to them. '  
-      f'In the end, it was all a dream that {verb1} by.')  
+      f'In the end though, it was all a dream that {verb1}ed by.')  
