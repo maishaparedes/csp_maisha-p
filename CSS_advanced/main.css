@@ -21,3 +21,8 @@
     display: flex;
     flex-wrap: wrap;
 }
+#no{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
