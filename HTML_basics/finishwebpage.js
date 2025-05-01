@@ -5,10 +5,10 @@ function show(){
 
 
 function view(){
-   if(document.getElementById("other").style.display ==="block"){
-           document.getElementById("other").style.display = "none"
+   if(document.getElementById("secret").style.display ==="block"){
+           document.getElementById("secret").style.display = "none"
    }
    else{
-       document.getElementById("other").style.display = "block"
+       document.getElementById("secret").style.display = "block"
    }
 }
